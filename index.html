@@ -1,16 +1,19 @@
-<!DOCTYPE html>
 
+
+Index · HTML
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Jadwal Mata Kuliah Semester 5</title>
-
 </head>
-
 <body>
     <div class="container">
-        <h1>Jadwal Mata Kuliah <span class="highlight">Fauzi Laksamana</span></h1>
+        <div class="header-row">
+            <h1>Jadwal Mata Kuliah <span class="highlight">Fauzi Laksamana</span></h1>
+            <p class="subtitle">Jadwal Semester 5</p>
+        </div>
         <table>
             <thead>
                 <tr>
@@ -23,65 +26,63 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Senin</td>
-                    <td>07.30 - 09.10</td>
-                    <td>2</td>
-                    <td>Teknik Kendali Lanjut(C)</td>
-                    <td>Dian Mursyitah, Dr., S.T., M.T</td>
-                    <td>FST 204</td>
+                <tr class="grouped-top">
+                    <td rowspan="2">Senin</td>
+                    <td data-label="Jam">07.30 - 09.10</td>
+                    <td data-label="SKS">2</td>
+                    <td data-label="Mata Kuliah">Teknik Kendali Lanjut(C)</td>
+                    <td data-label="Dosen">Dian Mursyitah, Dr., S.T., M.T</td>
+                    <td data-label="Ruangan">FST 204</td>
                 </tr>
                 <tr>
-                    <td>Senin</td>
-                    <td>15.30 - 17.10</td>
-                    <td>2</td>
-                    <td>Interaks Manusia-Komputer(A)</td>
-                    <td>Harris Simaremare, Dr., S.T, M.T.</td>
-                    <td>LAB Komputer</td>
+                    <td data-label="Jam">15.30 - 17.10</td>
+                    <td data-label="SKS">2</td>
+                    <td data-label="Mata Kuliah">Interaksi Manusia-Komputer(A)</td>
+                    <td data-label="Dosen">Harris Simaremare, Dr., S.T, M.T.</td>
+                    <td data-label="Ruangan">LAB Komputer</td>
                 </tr>
                 <tr>
                     <td>Selasa</td>
-                    <td>07.30 - 09.10</td>
-                    <td>3</td>
-                    <td>Elektromagnetika(D)</td>
-                    <td>Teddy Purnamirza, Prof., Dr., S.T., M. Eng.</td>
-                    <td>GB 102</td>
+                    <td data-label="Jam">07.30 - 09.10</td>
+                    <td data-label="SKS">3</td>
+                    <td data-label="Mata Kuliah">Elektromagnetika(D)</td>
+                    <td data-label="Dosen">Teddy Purnamirza, Prof., Dr., S.T., M. Eng.</td>
+                    <td data-label="Ruangan">GB 102</td>
                 </tr>
                 <tr>
                     <td>Kamis</td>
-                    <td>13.00 - 15.30</td>
-                    <td>3</td>
-                    <td>Teknik Keandalan(A)</td>
-                    <td>Aulia Ullah, S.T., M.Eng.</td>
-                    <td>Perpus lantai 3</td>
+                    <td data-label="Jam">13.00 - 15.30</td>
+                    <td data-label="SKS">3</td>
+                    <td data-label="Mata Kuliah">Teknik Keandalan(A)</td>
+                    <td data-label="Dosen">Aulia Ullah, S.T., M.Eng.</td>
+                    <td data-label="Ruangan">Perpus lantai 3</td>
+                </tr>
+                <tr class="grouped-top">
+                    <td rowspan="2">Jumat</td>
+                    <td data-label="Jam">07.30 - 09.10</td>
+                    <td data-label="SKS">2</td>
+                    <td data-label="Mata Kuliah">Rekayasa Trafik Telekomunikasi(A)</td>
+                    <td data-label="Dosen">SUTOYO, M.T.</td>
+                    <td data-label="Ruangan">FST 203</td>
                 </tr>
                 <tr>
-                    <td>Jumat</td>
-                    <td>07.30 - 09.10</td>
-                    <td>2</td>
-                    <td>Rekayasa Trafik Telekomunikasi(A)</td>
-                    <td>SUTOYO, M.T.</td>
-                    <td>FST 203</td>
-                </tr>
-                <tr>
-                    <td>Jumat</td>
-                    <td>09.10 - 11.40</td>
-                    <td>3</td>
-                    <td>Sistem Embedded dan IoT(A)</td>
-                    <td>Jufrizel, S.T., M.T.</td>
-                    <td>PSI 209</td>
+                    <td data-label="Jam">09.10 - 11.40</td>
+                    <td data-label="SKS">3</td>
+                    <td data-label="Mata Kuliah">Sistem Embedded dan IoT(A)</td>
+                    <td data-label="Dosen">Jufrizel, S.T., M.T.</td>
+                    <td data-label="Ruangan">PSI 209</td>
                 </tr>
                 <tr>
                     <td>Sabtu</td>
-                    <td>09.40 - 11.20</td>
-                    <td>2</td>
-                    <td>Enabling Skill(B)</td>
-                    <td>SUTOYO, M.T.</td>
-                    <td>FST 203</td>
+                    <td data-label="Jam">09.40 - 11.20</td>
+                    <td data-label="SKS">2</td>
+                    <td data-label="Mata Kuliah">Enabling Skill(B)</td>
+                    <td data-label="Dosen">SUTOYO, M.T.</td>
+                    <td data-label="Ruangan">FST 203</td>
                 </tr>
             </tbody>
         </table>
     </div>
 </body>
-
 </html>
+ 
